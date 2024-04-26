@@ -1,0 +1,17 @@
+.btn {
+  display: flex;
+  padding: 20px;
+  margin: 0 auto;
+  background-color: pink;
+  border: 2px solid rgb(255, 0, 179);
+  border-radius: 20px;
+}
+.btn:hover {
+  background-color: rgb(250, 209, 216);
+}
+.second-icon {
+  display: none;
+}
+.btn-text {
+  font-size: 20px;
+}

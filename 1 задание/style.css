@@ -1,0 +1,17 @@
+.btn {
+    display: flex;
+    width: 200px;
+    margin: 0 auto;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+
+}
+.second-icon {
+    display: none;
+}
+.first-icon {
+    display: block;
+}

@@ -1,0 +1,67 @@
+
+.chat-box {
+    display: flex;
+    padding: 5px;
+    background-color: #5fbfce52;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+    max-width: 400px;
+    margin: 0 auto;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.363);
+    align-items: center;
+}
+.chat-inp {
+    border: 2px solid #36BBCE;
+    font-family: 'Roboto';
+    width: 200px;
+}
+.chat-btn {
+    background-color: white;
+    border: 2px solid #36BBCE;
+    font-family: 'Roboto';
+    box-sizing: border-box;
+}
+.chat-btn:hover {
+    background-color: rgba(255, 255, 255, 0.486);
+}
+.inp-send-box {
+    display: flex;
+    gap: 10px;
+    height: 30px;
+    box-sizing: border-box;
+}
+.chat-board {
+    border: 2px solid #36BBCE;
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: white;
+    align-items: end;
+    overflow: auto;
+}
+.chat-board::-webkit-scrollbar {
+    display: none;
+}
+.chat-massage {
+    border: 2px solid #36BBCE;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 150px;
+    font-family: 'Roboto';
+    word-break: break-word;
+    margin: 5px 10px 5px 10px;
+    border-radius: 3px;
+    background-color: #5fbfce52;
+    padding: 5px;
+}
+.left {
+    align-self: flex-start;
+}
+.warning {
+    align-self: center;
+    font-family: "Roboto";
+}
